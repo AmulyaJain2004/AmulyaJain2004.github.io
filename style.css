@@ -1,0 +1,410 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#home{
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-cottonbro-studio-6153354.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;    
+} 
+
+#portfolio{
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-tima-miroshnichenko-5380603.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#contact{
+    margin: 0;
+    padding: 0;
+    /* background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    background-color: black;
+    height: 770px;
+} 
+
+/* 
+#b4{
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+} 
+
+#b5{
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}  */
+
+.Heading{
+    background-color: #333;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Times New Roman', sans-serif;
+}
+
+.fa-house-user{
+    color: white;
+}
+
+.fa-user-tie{
+    color: white;
+}
+
+.fa-folder-open{
+    color: white;
+}
+
+.fa-circle-user{
+    color: white;
+}
+
+.fa-id-card{
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(89, 232, 184);
+}
+
+a:hover{
+    font-weight: bold;
+    animation: ColorTransition 3s ease 0s infinite;
+}
+
+
+.container1 {
+    color: rgb(213, 47, 75);
+    font-size: 30px;
+    max-width: 600px;
+    height:760px;
+    position: relative;
+    top: 190px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cont2:hover{
+    color: black;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px yellow, 0px 5px 5px red;
+}
+
+#cont1{
+    font-size: 50px;
+    height: 300px;
+    color: rgb(31, 114, 191);
+    text-align: center;
+    border-color: black;
+    position: relative;
+    top: 10px;
+    padding: 50px;
+}
+
+#cont2{
+    font-size: 40px;
+    height: 300px;
+    text-align: center;
+    color: rgb(12, 12, 12);
+    position: relative;
+    top: 0px;
+    padding: 30px;
+}
+
+#cont1:hover{
+    color: rgb(173, 8, 38);
+    animation: pulse;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: once;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    text-shadow: 0px 0px 5px rgb(255, 183, 0), 0px 5px 5px rgb(0, 255, 76);
+}
+
+.container2 {
+    border-color: black;
+    max-width: 600px;
+    height:700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+}
+
+h1{
+    color: rgb(239, 239, 239);
+    font-family: Sofia ;
+    font-size: 50px;
+    text-shadow: 0px 0px 5px #5d0909, 0px 5px 5px rgb(11, 200, 194);
+}
+
+#special{
+    position:relative;
+    left: 100px;
+    float: right;
+}
+
+#first{
+    font-size: 17px;
+    color: yellow;
+    width: 500px;
+    height: 200px;
+    font-family:Bad Script;
+    font-weight: bold;
+}
+
+.box1{
+    font-family: 'Trebuchet MS','Gill Sans', 'Gill Sans MT', Calibri;
+    color: rgb(255, 80, 188);
+    border: 7px solid;
+    height: 90px;
+    width: 100px;
+    position: relative;
+    left: 500px;
+    padding: 10px;
+
+}
+
+.box1:hover{
+    border-color: crimson;
+    animation: pulse;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: once;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+a{
+    color: aqua;
+}
+
+.fa-linkedin{
+    color: rgb(19, 132, 231);
+}
+
+.fa-instagram{
+    color:red;
+}
+
+.fa-github{
+    color: white;
+}
+
+
+.box2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 255, 80);
+    border: 7px solid;
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 500px;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.box2:hover{
+    border-color: crimson;
+    animation: pulse;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: once;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+.sub1{
+    color: rgb(251, 255, 4);
+}
+/* 
+.box3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 255, 80);
+    border: 7px solid;
+    height: 120px;
+    width: 150px;
+    position: relative;
+    left: 500px;
+    padding: 10px;
+    border-color: crimson;
+} */
+
+/* 
+.container3 {
+    max-width: 960px;
+    height:700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.container4 {
+    max-width: 960px;
+    height:700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+} */
+
+.container5 {
+    max-width: 600px;
+    margin: 0;
+    height: 150px;
+    color: #00ffd5;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cbox1{
+    font-family: 'Trebuchet MS','Gill Sans', 'Gill Sans MT', Calibri;
+    color: rgb(255, 80, 188);
+    border: 7px solid;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: -25px;
+    left: 50%;
+    padding: 10px;
+}
+
+.cbox2{
+    font-family: 'Trebuchet MS','Gill Sans', 'Gill Sans MT', Calibri;
+    color: rgb(200, 14, 14);
+    border: 7px solid;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: -20px;
+    left: 50%;
+    padding: 10px;
+}
+
+.cbox1:hover{
+    animation: slideInLeft;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: once;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+.cbox2:hover{
+    animation: slideInLeft;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: once;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+
+}
+
+form {
+    position:relative;
+    top: -30px;
+    left: 50%;
+    background-color: #8e8e8e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* max-width: 100%; */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Copyright_Details {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+@keyframes ColorTransition {
+    0% {
+        background-color: red;
+    }
+    20% {
+        background-color: orange;
+    }
+    40%{
+        background-color: brown;
+    }
+    60% {
+        background-color: blue;
+    }
+    80% {
+        background-color: green;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
