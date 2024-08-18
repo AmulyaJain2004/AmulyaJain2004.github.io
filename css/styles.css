@@ -1,1 +1,289 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
+);
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    padding: 100px;
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(mypic2.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header.sticky .logo {
+    color: #111;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header.sticky ul li a {
+    color: #111;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.contentBx {
+    padding-right: 30px;
+}
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.w50 {
+    min-width: 50%;
+}
+img {
+    max-width: 100%;
+}
+
+#about {
+    background-color: #999;
+}
+
+.projects {
+    background: #111;
+}
+
+.heading.white {
+    color: #fff;
+}
+
+.projects .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.projects .content .projectsBx {
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.projects .content .projectsBx:hover {
+    background: #2196f3;
+}
+
+.projects .content .projectsBx img {
+    max-width: 80px;
+    filter: invert(1);
+}
+
+.projects .content .projectsBx h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blogs .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blogs .content .blogBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.blogs .content .blogBx img {
+    max-width: 100%;
+
+}    
+
+.contact {
+    background: #111;
+}
+.formbx {
+    min-width: 60%;
+}
+.formbx form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formbx form h3,
+.contactInfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formbx form input,
+.formbx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+
+.formbx form textarea {
+    min-height: 200px;
+}
+
+.formbx form input::placeholder,
+.formbx form textarea::placeholder {
+    color: #999;
+}
+
+.formbx form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo {
+    min-width: 40%;
+}
+
+.contactInfoBx {
+    position: relative;
+}
+
+.contactInfoBx .box {
+    position: relative;
+    padding: 20px;
+     display: flex;
+}
+
+.contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.contactInfoBx .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactInfoBx .box .text h3 {
+    font-weight: 500;
+    color: #2196f3;
+    margin-bottom: 0;
+}
+
+.copyright {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
