@@ -3,17 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amulya Jain — AI & ML Engineer & Full-Stack Developer</title>
+  <title>Amulya Jain - AI & ML Engineer & Full-Stack Developer</title>
   <meta name="description" content="Portfolio of Amulya Jain: AI & ML engineer building voice agents, agentic AI pipelines and ML systems." />
   <link rel="canonical" href="https://amulyajain.vercel.app/" />
+
+  <!-- Link previews (LinkedIn, WhatsApp, Slack read these; they don't follow the redirect) -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Amulya Jain - AI & ML Engineer & Full-Stack Developer" />
+  <meta property="og:title" content="Amulya Jain — AI & ML Engineer & Full-Stack Developer" />
   <meta property="og:description" content="Portfolio of Amulya Jain: AI & ML engineer building voice agents, agentic AI pipelines and ML systems." />
   <meta property="og:url" content="https://amulyajain.vercel.app/" />
   <meta property="og:image" content="https://amulyajain.vercel.app/opengraph-image" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta http-equiv="refresh" content="0; url=https://amulyajain.vercel.app/" />
-  <script>window.location.replace("https://amulyajain.vercel.app/");</script>
+
+  <!-- Normal redirect: passes the visitor's real referrer (e.g. LinkedIn) to your analytics -->
+  <script>
+    window.location.replace(
+      "https://amulyajain.vercel.app/?from=" + encodeURIComponent(document.referrer)
+    );
+  </script>
+
+  <!-- Only used when JavaScript is off; kept in noscript so it cannot beat the script above -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://amulyajain.vercel.app/" />
+  </noscript>
 </head>
 <body>
   <p>If you are not redirected, <a href="https://amulyajain.vercel.app/">click here</a>.</p>
